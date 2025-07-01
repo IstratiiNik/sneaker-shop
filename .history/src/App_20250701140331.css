@@ -1,0 +1,13 @@
+@import "reset.css";
+
+#root {
+	font-family: Monserat;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,10 @@
+import React, {createContext, } from 'react'
+
+
+const CartContext = () => {
+  return (
+	 <div>CartContext</div>
+  )
+}
+
+export default CartContext

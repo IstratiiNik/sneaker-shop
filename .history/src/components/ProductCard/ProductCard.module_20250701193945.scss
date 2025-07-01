@@ -1,0 +1,20 @@
+.card {
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.15);
+  border-radius: 42px;
+  img {
+    max-width: 278px;
+    height: auto;
+  }
+  h3 {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+}
+
+.price {
+}

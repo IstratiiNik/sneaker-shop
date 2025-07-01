@@ -1,0 +1,29 @@
+.header {
+  background-color: rgb(59, 60, 61);
+  height: 110px;
+  width: 100%;
+}
+.container {
+  max-width: 1420px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+
+  h1 {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 24px;
+  }
+}
+
+.nav {
+  display: flex;
+  gap: 64px;
+
+  NavLink
+}

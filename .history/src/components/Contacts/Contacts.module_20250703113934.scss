@@ -1,0 +1,57 @@
+.contacts {
+  max-width: 1460px;
+  min-height: 100vh;
+  padding: 50px 20px;
+  margin: 0 auto;
+
+  h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    margin-bottom: 117px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(234, 234, 234);
+  }
+}
+
+.contentContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contactForm {
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-bottom: 67px;
+
+    li {
+      color: rgba(0, 0, 0, 0.5);
+      font-size: 18px;
+      line-height: 81%;
+
+      &::marker {
+        font-size: 0.7em; // уменьшает размер точки
+      }
+    }
+  }
+}
+.linksContainer {
+  border-radius: 10px;
+  background: rgb(250, 250, 250);
+  p {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 81%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+}
+
+.links {
+  display: flex;
+  gap: 50px;
+}

@@ -1,9 +1,0 @@
-import React from "react";
-import { useCart } from "../..context/CartContext";
-import CartCard 
-
-const Cart = () => {
-  return <div>Cart</div>;
-};
-
-export default Cart;
